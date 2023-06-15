@@ -20,7 +20,7 @@
     color: var(--title-color-dark);
 }
 
-.home__title{
+.home__title {
     font-size: var(--big-font-size);
     margin-bottom:  var(--mb-0-25);
 }
@@ -36,11 +36,16 @@
 .home__subtitle::before {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 1px;
+    width: 70px;
+    height: 3px;
     background-color: var(--text-color);
     left: 0;
     top: 1rem;
+}
+
+.home__description {
+    max-width: 400px;
+    /* margin-bottom: var(--mb-1); */
 }
 
 .home__img {
@@ -53,4 +58,19 @@
     justify-self: center;
     width: 300px;
     height: 300px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 }
