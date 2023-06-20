@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import send  from '../../assets/send.png'
+// import send  from '../../assets/solution.png'
 
 const Data = () => {
   return (
@@ -12,7 +12,8 @@ const Data = () => {
         </p>
         <a href="#contact" className="button button--flex">
             Say Hello
-            <img src={send} />
+            {/* <img src={send} /> */}
+            <i class="uil uil-location-arrow button-icon"></i>
         </a>
     </div>
   )
