@@ -1,5 +1,5 @@
 
-import Pic1 from '../../assets/testimonial1.jpg'
+import Pic1 from '../../assets/testimonial3.jpg'
 import Pic2 from '../../assets/testimonial1.jpg'
 import Pic3 from '../../assets/testimonial2.jpg'
 
