@@ -1,6 +1,12 @@
 import React from 'react'
 import './testimonials.css'
 import { Data } from './Data'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
+
+
 
 const Testimonialss = () => {
   return (
@@ -8,7 +14,36 @@ const Testimonialss = () => {
         <h2 className="section__title">Testimonials</h2>
         <span className="section__subtitle">Feedbacks from Clients</span>
 
-        <div className="testimonial__container"></div>
+        <Swiper className="testimonial__container"
+          loop={true}
+          spaceBetween={24}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+            576: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 48,
+            },
+          }}
+          modules={[Pagination]}
+        >
+          {
+            Data.map (({ id, image, title, description }) => {
+              return ( 
+                <SwiperSlide className='testimonial__card' key={id}>
+                  <img src={image} alt="" className='testimonial__img' style={{height:'100px', width:'100px'}} />
+
+                  <h3 className="testimonial__name">{title}</h3>
+                  <p className="testimonial__description">{description}</p>
+                </SwiperSlide>
+              )
+            })
+          }
+        </Swiper>
     </section>
   )
 }
