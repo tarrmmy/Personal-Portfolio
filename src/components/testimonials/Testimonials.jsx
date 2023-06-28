@@ -11,11 +11,12 @@ import { Pagination } from "swiper";
 const Testimonialss = () => {
   return (
     <section className="testimonial container section">
-        <h2 className="section__title">Testimonials</h2>
-        <span className="section__subtitle">Feedbacks from Clients</span>
+        <h2 className="section__title">Feedbacks from Clients</h2>
+        <span className="section__subtitle">Testimonials</span>
 
         <Swiper className="testimonial__container"
           loop={true}
+          grabCursor={true}
           spaceBetween={24}
           pagination={{
             clickable: true,
