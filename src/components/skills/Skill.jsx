@@ -1,6 +1,6 @@
 import React from 'react'
 import Frontend from './Frontend'
-import Consultant from './Consultant'
+// import Consultant from './Consultant'
 import './skill.css'
 
 const Skill = () => {
@@ -11,7 +11,7 @@ const Skill = () => {
 
         <div className="skills__container container grid">
             <Frontend />
-            <Consultant />
+            {/* <Consultant /> */}
         </div>
     </section>
   )
