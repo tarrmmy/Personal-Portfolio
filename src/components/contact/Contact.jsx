@@ -43,6 +43,46 @@ const Contact = () => {
 
             <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
+
+                <form className="contact__form">
+                    <div className="contact__form-div">
+                        <label className="contact__form-tag">Name</label>
+                        <input 
+                            type="text" 
+                            name='name' 
+                            className="contact__form-input" 
+                            placeholder='Insert your name'
+                        />
+                    </div>
+
+                    <div className="contact__form-div">
+                        <label className="contact__form-tag">Mail</label>
+                        <input 
+                            type="email" 
+                            name='email' 
+                            className="contact__form-input" 
+                            placeholder='Insert your email'
+                        />
+                    </div>
+                    <div className="contact__form-div">
+                        <label className="contact__form-tag">Projects</label>
+                        <textarea 
+                            name="project" 
+                            id="" 
+                            cols="30" 
+                            rows="10"
+                            className='contact__form-input'
+                            placeholder='Write your project'
+                        >
+
+                        </textarea>
+                    </div>
+                    <button href="#contact" className="button button--flex">
+                        Say Hello
+                        {/* <img src={send} /> */}
+                        <i class="uil uil-location-arrow button-icon"></i>
+                    </button>
+                </form>
             </div>
         </div>
     </section>
