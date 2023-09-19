@@ -51,7 +51,7 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Techend Incubation</span>
+                            <span className="qualification__subtitle">TechEnd Incubation</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
                                 2021-2022
@@ -86,7 +86,7 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Web Designing</h3>
-                            <span className="qualification__subtitle">Techend</span>
+                            <span className="qualification__subtitle">TechEnd</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
                                 2021-2022

@@ -32,7 +32,7 @@ const Contact = () => {
 
                     <div className="contact__card">
                         <i className="bx bxl-twitter contact__card-icon"></i>
-                        <h3 className="contact__card-title">X</h3>
+                        <h3 className="contact__card-title">Twitter</h3>
                         <span className="contact__card-data">@heewritescode</span>
                         <a href="" className="contact__button">
                             Write me<i className="bx bx-right-arrow-alt contact__button-icon"></i> 
@@ -79,12 +79,14 @@ const Contact = () => {
                     </div>
                     <button href="#contact" className="button button--flex">
                         Say Hello
-                        {/* <img src={send} /> */}
                         <i class="uil uil-location-arrow button-icon"></i>
                     </button>
                 </form>
             </div>
         </div>
+
+
+        
     </section>
   )
 }
