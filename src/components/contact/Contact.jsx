@@ -64,7 +64,7 @@ const Contact = () => {
                             placeholder='Insert your email'
                         />
                     </div>
-                    <div className="contact__form-div">
+                    <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Projects</label>
                         <textarea 
                             name="project" 
@@ -78,7 +78,7 @@ const Contact = () => {
                         </textarea>
                     </div>
                     <button href="#contact" className="button button--flex">
-                        Say Hello
+                        Send
                         <i class="uil uil-location-arrow button-icon"></i>
                     </button>
                 </form>
