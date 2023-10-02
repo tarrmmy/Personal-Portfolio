@@ -50,7 +50,7 @@ const Qualification = () => {
                 >
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
+                            <h3 className="qualification__title">Power Bi</h3>
                             <span className="qualification__subtitle">TechEnd Incubation</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
@@ -85,7 +85,7 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Designing</h3>
+                            <h3 className="qualification__title">Data Analyst</h3>
                             <span className="qualification__subtitle">TechEnd</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
