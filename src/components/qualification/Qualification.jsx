@@ -54,7 +54,7 @@ const Qualification = () => {
                             <span className="qualification__subtitle">Miva Open University</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023-2027
+                                2023 - 2027
                             </div>
                         </div>
 
@@ -76,7 +76,7 @@ const Qualification = () => {
                             <span className="qualification__subtitle">Talent Model College</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2013-2019
+                                2013 - 2019
                             </div>
                         </div>
 
@@ -132,7 +132,7 @@ const Qualification = () => {
                             <span className="qualification__subtitle">Innkeeper's Hub, Magodo</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                January 2023-Present
+                                Jan 2023 - Oct 2023
                             </div>
                         </div>
 
@@ -154,7 +154,7 @@ const Qualification = () => {
                             <span className="qualification__subtitle">Neo Docto Inc.</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                March 2022-August 2022
+                                Mar 2022 - Aug 2022
                             </div>
                         </div>
 

@@ -8,12 +8,12 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_dthdief', 'template_wpkxy2f', form.current, 'RIliLaLzHEKjL7QQMkVpY')
+      emailjs.sendForm('service_qbx97sn', 'template_wpkxy2f', form.current, 'RIliLaLzHEKjL7QQMkVpY')
         e.target.reset()
     };
 
   return (
-    <section className="contact section" id='#contact'>
+    <section className="contact section" id="#contact">
         <h2 className="section__title">How to reach me</h2>
         <span className="section__subtitle">Contact</span>
 
