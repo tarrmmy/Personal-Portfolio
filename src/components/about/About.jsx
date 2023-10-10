@@ -1,6 +1,6 @@
 import React from 'react'
-import profile from '../../assets/profile.jpg'
-import CV from '../../assets/Ibraheem.pdf'
+import profile from '../../assets/quams.jpg'
+// import CV from '../../assets/Ibraheem.pdf'
 import Info from './info'
 import './about.css'
 
@@ -16,13 +16,14 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I have designed and developed highly responsive websites and e-commerce 
-                    solutions using advanced programming languages. 
+                    Facilitated and mentored over 100 students in data analytics, providing guidance,
+                    knowledge, and mentorship to empower them for successful careers, and also contributed to building a strong data analytics community, actively participated in projects, presentations, and workshops to promote data literacy and drive
+                    data-driven decision-making. 
                 </p>
-                <a download="" href={CV} className="button button--flex">
+                {/* <a download="" href={CV} className="button button--flex">
                     Download CV
                     <i class="uil uil-file-download" style={{marginLeft: '5px'}}></i>
-                </a>
+                </a> */}
             </div>
         </div>
     </section>
