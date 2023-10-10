@@ -7,7 +7,7 @@ const Header = () => {
     <div>
 		<header className="header">
 			<nav className="nav container">
-				<a href="index.html" className="nav__logo">Ibraheem</a>
+				<a href="index.html" className="nav__logo">Quams 👑</a>
 				<div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
 					<ul className="nav__list grid">
 						<li className="nav__item">
@@ -17,7 +17,7 @@ const Header = () => {
 						</li>
 						<li className="nav__item">
 							<a href="#about" className="nav__link">
-								<i className="uil uil-user nav__icon"></i>About Us
+								<i className="uil uil-user nav__icon"></i>About 
 							</a>
 						</li>
 						<li className="nav__item">
@@ -30,11 +30,11 @@ const Header = () => {
 								<i className="uil uil-briefcase-alt nav__icon"></i>Services
 							</a>
 						</li>
-						<li className="nav__item">
+						{/* <li className="nav__item">
 							<a href="#portfolio" className="nav__link">
 								<i className="uil uil-scenery nav__icon"></i>Portfolio
 							</a>
-						</li>
+						</li> */}
 						<li className="nav__item">
 							<a href="#contact" className="nav__link">
 								<i className="uil uil-message nav__icon"></i>Contact

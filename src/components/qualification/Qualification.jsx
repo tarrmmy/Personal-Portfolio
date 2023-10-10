@@ -50,11 +50,11 @@ const Qualification = () => {
                 >
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Power Bi</h3>
-                            <span className="qualification__subtitle">TechEnd Incubation</span>
+                            <h3 className="qualification__title">Economics</h3>
+                            <span className="qualification__subtitle">Miva Open University</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2021-2022
+                                2023-2027
                             </div>
                         </div>
 
@@ -72,18 +72,18 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Computer Science</h3>
-                            <span className="qualification__subtitle">Lagos State University</span>
+                            <h3 className="qualification__title">High School Diploma</h3>
+                            <span className="qualification__subtitle">Talent Model College</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023-Present
+                                2013-2019
                             </div>
                         </div>
 
                         
                     </div>
 
-                    <div className="qualification__data">
+                    {/* <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Data Analyst</h3>
                             <span className="qualification__subtitle">TechEnd</span>
@@ -116,7 +116,7 @@ const Qualification = () => {
                         </div>
 
                         
-                    </div>
+                    </div> */}
                 </div>
 
                 <div 
@@ -128,11 +128,11 @@ const Qualification = () => {
                 >
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Techend Incubation</span>
+                            <h3 className="qualification__title">Data Analysis Instructor</h3>
+                            <span className="qualification__subtitle">Innkeeper's Hub, Magodo</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2021-2022
+                                January 2023-Present
                             </div>
                         </div>
 
@@ -150,11 +150,11 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Computer Science</h3>
-                            <span className="qualification__subtitle">Lagos State University</span>
+                            <h3 className="qualification__title">Data Analyst Associate</h3>
+                            <span className="qualification__subtitle">Neo Docto Inc.</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023-Present
+                                March 2022-August 2022
                             </div>
                         </div>
 
@@ -163,11 +163,11 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Designing</h3>
-                            <span className="qualification__subtitle">Techend</span>
+                            <h3 className="qualification__title">Freelance Data Scientist</h3>
+                            <span className="qualification__subtitle"></span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2021-2022
+                                Dec 2021 - Oct 2022
                             </div>
                         </div>
 
