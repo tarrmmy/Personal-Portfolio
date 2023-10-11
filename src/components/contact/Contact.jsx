@@ -8,7 +8,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_qbx97sn', 'template_wpkxy2f', form.current, 'RIliLaLzHEKjL7QQMkVpY')
+      emailjs.sendForm('service_qfy0b44', 'template_hdtxokv', form.current, 'J3vaWSUqm37gtbka3')
         e.target.reset()
     };
 
